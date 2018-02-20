@@ -20,7 +20,7 @@ while True:
   picture_path = '/var/www/html/pics/image' + capture_time + '.jpg'
 
   # capturing picture
-  camera.capture(picturepath)
+  camera.capture(picture_path)
 
   # sleep 10 minutes before capturing next picture
   time.sleep(10*60)
